@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap EPAM Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                <a class="navbar-brand " href="#">Control Panel</a>
+            </div>
+
+            <div class="collapse navbar-collapse pull-right " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class=" dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <span>Admin</span>
+                            <i class="glyphicon glyphicon-triangle-bottom"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"> My Profile </a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-lock"></i><span> Log out</span> </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="col-sm-3 sidebar">
+        <h3 class="modal-header"><span class="glyphicon glyphicon-briefcase"></span> Toolbox</h3>
+        <ul class="nav nav-sidebar">
+            <li><a href="#"><span class="glyphicon glyphicon-flash"></span> Alerts</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-link"></span> Links</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Reports</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-book"></span> Books</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-briefcase"></span> Tools</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-time"></span> Real-time</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-plus"></span> Advanced..</a></li>
+        </ul>
+        <h3 class="modal-header"></h3>
+    </div>
+    <div class="main">
+        <div class="col-sm-9">
+            <h3 class="modal-header"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</h3>
+
+            <ul class="list-group">
+                <li class="list-group-item disabled input-lg " disable>
+                    <span class="badge">3</span>
+                    Inbox Messages
+                </li>
+            </ul>
+            <h3 class="modal-header"></h3>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>Processing Status</h4>
+                </div>
+                <div class="panel-body">
+                    <h5>Complete</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                             aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                            <span class="sr-only">70% Complete (success)</span>
+                        </div>
+                    </div>
+                    <h5>In Progress</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
+                             aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                            <span class="sr-only">20% Complete</span>
+                        </div>
+                    </div>
+                    <h5>At Risk</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+                             aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <h3 class="modal-header"></h3>
+            <h4 class="modal-header">
+                <p class="text-info"><span class="glyphicon glyphicon-list-alt"></span> Reports</p>
+            </h4>
+        </div>
+        <div class="col-sm-8">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Visits</th>
+                        <th>Roi</th>
+                        <th>Sourse</th>
+                        <th>Description and Notes</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>45</td>
+                        <td>2.45%</td>
+                        <td>Direct</td>
+                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>289</td>
+                        <td>56.2%</td>
+                        <td>Refferal</td>
+                        <td>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>98</td>
+                        <td>25%</td>
+                        <td>Type</td>
+                        <td>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                            placerat facer possim assum.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>109</td>
+                        <td>8%</td>
+                        <td></td>
+                        <td>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>14%</td>
+                        <td></td>
+                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>New Requests</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">Hosting virtual mailbox serv..</a>
+                        <a href="#" class="list-group-item">Dedicated server doesn't..</a>
+                        <a href="#" class="list-group-item">RHEL6 install on new..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-info" role="alert">
+                Please remember to <a href="#">Logout</a> for classified security
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>Sumbit Request<span class="glyphicon glyphicon-wrench pull-right"></span></h4>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Title</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">Details</label>
+                                <textarea class="form-control" rows="3" id="exampleInputFile"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option value="General Question">General Question</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn btn-primary">Post</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 >Engagment</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row placeholders">
+                        <div class="col-xs-4 col-sm-4">
+                            <img src="http://placehold.it/80x80"  class="img-circle">
+                        </div>
+                        <div class="col-xs-4 col-sm-4">
+                            <img src="http://placehold.it/80/d3d3d3/696969"  class="img-circle">
+                        </div>
+                        <div class="col-xs-4 col-sm-4">
+                            <img src="http://placehold.it/80/d3d3d3/696969" class="img-circle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="col-md-12"></h3>
+</div>
+<footer class="text-center">Бла-бла-бла <a href="http://getbootstrap.com">Bootstrap 3.3.7</a></footer>
+<script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>

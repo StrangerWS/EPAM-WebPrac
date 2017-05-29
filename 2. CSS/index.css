@@ -1,0 +1,182 @@
+html, body{
+    height: 98%;
+}
+body {
+    margin: auto;
+    padding: 0 20px;
+    width: 1000px;
+    background-color: #CADAE6;
+    font-family: sans-serif;
+}
+.wrap{
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+.logo a {
+    outline: none;
+    display: block;
+}
+.logo img {
+    display: block;
+}
+.header-container nav {
+    overflow: hidden;
+}
+.header-container ul {
+    float: right;
+}
+.header-container nav li {
+    display: inline-block;
+    margin-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+}
+.header-container nav a {
+    display: block;
+    position: relative;
+    color: black;
+}
+.header-container nav a:hover{
+    color: #DEA5E0;
+}
+
+.menu{
+    width: 200px;
+    display: inline-block;
+}
+.menu li{
+    border-bottom: solid 1px #94C0E0;
+    margin: 0 auto;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: #94C0E0;
+    color: white;
+}
+.content{
+    display: inline-block;
+    max-width: 740px;
+    margin-left: 20px;
+    vertical-align: top;
+    padding-bottom: 80px;
+}
+
+.content table, th, td{
+    border: solid 1px #0360A3;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+.content th{
+    background-color: #5EA1D1;
+}
+
+.content p a{
+    color: #D9A1DE;
+}
+
+a[href^="https://www.microsoft.com/ru-ru/"]{
+    font-weight: bold;
+}
+
+.browsers{
+    margin-left: 40px;
+    list-style: disc;
+    font-style: italic;
+}
+
+.browsers ul{
+    margin-left: 20px;
+    list-style: circle;
+}
+.browsers li:nth-of-type(odd){
+    color: #FF0000;
+}
+.browsers li:nth-of-type(2){
+    color: #008000;
+}
+.browsers ul li:first-of-type{
+    color: #004AF8;
+}
+.browsers ul li:nth-of-type(2){
+    color: #890080;
+    font-style: normal;
+}
+.browsers ul li:last-of-type{
+    color: #EBD700;
+    font-style: normal;
+}
+.browsers li:last-of-type{
+    color: #808080;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    margin-top: -50px;
+    width: 1000px;
+    height: 50px;
+}
+.footer nav{
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.footer nav ul{
+    float: left;
+}
+
+.footer nav li {
+    display: inline-block;
+    padding: 0 5px;
+    border-right: solid 1px black;
+}
+
+.footer nav li:last-of-type{
+    border-right: none;
+}
+
+.footer nav a {
+    display: block;
+    position: relative;
+    color: black;
+}
+.footer nav a:hover{
+    color: #DEA5E0;
+}
+
+.footer p{
+    margin: 0;
+    display: inline-block;
+    float: right;
+}

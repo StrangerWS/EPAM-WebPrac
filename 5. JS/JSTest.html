@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS EPAM Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a id="header" class="navbar-brand">JS Basics</a>
+        </div>
+        <select title="Locale" id="locale" class="navbar-btn navbar-right" onchange="changeLocale()">
+            <option>English</option>
+            <option>Русский</option>
+        </select>
+    </div>
+</div>
+<div class="container">
+    <div class="main">
+        <div class="col-sm-6">
+            <h3 id="countLabel">Count numbers</h3>
+            <div class="input-group">
+                    <input id="numberCounter" type="text" class="form-control" placeholder="Enter phrase"
+                           aria-describedby="basic-addon1">
+                    <span class="input-group-btn">
+                       <button id="countBtn" class="btn btn-default" onclick="countNumbers()">
+                           Count
+                       </button>
+                   </span>
+            </div>
+        </div>
+        <div class="col-sm-6">
+                <h3 id="repeaterLabel">Delete repeated</h3>
+                <div class="input-group">
+                <textarea id="repeaterInput" class="form-control" rows="5" cols="80" draggable="false"
+                          placeholder="Enter phrase"></textarea>
+                </div>
+                <span class="input-group-btn">
+                <button id="repeaterBtn" class="col-sm-12 btn btn-default" onclick="deleteRepeated()">
+                    Delete
+                </button>
+            </span>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <h3 id="getDateLabel">Get Date</h3>
+        <div class="input-group">
+                <div class="form-group">
+                    <input id="getDateYear" type="text" class="form-control" placeholder="Year"
+                           aria-describedby="basic-addon1">
+                    <select title="Month" id="getDateMonth" class="form-control">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <input id="getDateDay" type="text" class="form-control" placeholder="Day"
+                           aria-describedby="basic-addon1">
+                    <input id="getDateHour" type="text" class="form-control" placeholder="Hour"
+                           aria-describedby="basic-addon1">
+                    <input id="getDateMinute" type="text" class="form-control" placeholder="Minute"
+                           aria-describedby="basic-addon1">
+                    <input id="getDateSecond" type="text" class="form-control" placeholder="Second"
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="form-group">
+                    <input id="getDateMask" type="text" class="form-control" placeholder="Enter mask"
+                           aria-describedby="basic-addon1">
+                    <span class="input-group-btn">
+                       <button id="getDateBtn" class="btn btn-default" onclick="dateGetter()">
+                           Replace
+                       </button>
+                   </span>
+                </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+body {
+    background-color: #F5F8FA;
+}
+
+button {
+    font-size: 12px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+}
+
+input {
+    padding-left: 10px;
+    font-size: 12px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    height: 26px;
+}
+
+.header {
+    background-color: #034F84;
+    height: 30px;
+    padding: 10px 5px;
+}
+
+.header-img {
+    height: 30px;
+    float: left;
+}
+
+.header h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.xs-button {
+    float: right;
+}
+
+.md-user-block, .header nav, .md-text, .lg-aside-header {
+    display: none;
+}
+
+.search-field {
+    display: block;
+    height: 30px;
+    margin: 10px auto;
+    width: 97%;
+}
+
+.sign-in-form {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin: 10px auto;
+    width: 98%;
+}
+
+.sign-in-form h2 {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.sign-in-form p {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.login, .password {
+    display: block;
+    margin: 15px;
+    height: 45px;
+    width: 80%;
+}
+
+.checkbox {
+    float: left;
+    margin: 5px 10px 5px 20px;
+}
+
+.sign-in-form div {
+    display: block;
+}
+
+.sign-in-form label {
+    margin: 11px 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.sign-in-form button {
+    display: block;
+    margin: 15px;
+    margin-left: auto;
+}
+
+.sign-in-form input {
+    height: 25px;
+}
+
+.gallery {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin: 10px auto;
+    width: 98%;
+}
+
+.gallery h2 {
+    display: block;
+    margin: 30px auto;
+    font-size: 25px;
+}
+
+.gallery img {
+    display: block;
+    width: 95%;
+    margin: 30px auto;
+}
+
+.article {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin: 8px auto;
+    width: 98%;
+}
+
+.article img {
+    display: block;
+    width: 100%;
+    margin: 0 auto 15px auto;
+}
+
+.article h2 {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.article-text {
+    margin: 15px;
+    font-size: 12px;
+}
+
+.buttons {
+    width: 98%;
+    margin: auto;
+}
+
+.buttons a img {
+    display: block;
+    width: 35px;
+}
+
+.buttons a {
+    display: inline-block;
+    width: 19%;
+    margin: auto;
+    font-size: 15px;
+    text-decoration: none;
+    color: #5EA1D1;
+}
+
+@media (min-width: 768px){
+    .xs-button {
+        display: none;
+    }
+
+    .md-text {
+        display: inline-block;
+        margin: 5px 15px;
+    }
+
+    .header h1 {
+        float: left;
+    }
+
+    .header nav {
+        display: inline-block;
+        font-size: 14px;
+        padding: 8px 5px;
+
+    }
+
+    .header nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .header nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .md-user-block {
+        float: right;
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+    }
+
+    .md-user-block form{
+        display: inline-block;
+    }
+
+    .md-user-block input {
+        width: 90px;
+    }
+
+    .md-user-block img {
+        vertical-align: middle;
+        height: 30px;
+        border-radius: 15px;
+        margin: auto 5px;
+
+    }
+
+    .md-user-block p {
+        font-size: 15px;
+        color: white;
+        display: inline-block;
+    }
+
+    .sign-in-form {
+        margin: auto;
+        float: right;
+        width: 30%;
+        margin-right: 10px;
+
+    }
+
+    .sign-in-form h2 {
+        margin: 10px 15px;
+        font-size: 25px;
+    }
+
+    .gallery {
+        width: 65%;
+        float: left;
+        margin: auto;
+        margin-left: 10px;
+    }
+
+    .gallery h2 {
+        margin: 10px 5px;
+        font-size: 25px;
+    }
+
+    .gallery img {
+        display: inline-block;
+        width: 30%;
+        height: 400px;
+        margin: 15px 5px;
+    }
+
+    .buttons {
+        width: 50%;
+    }
+
+    .article {
+        display: inline-block;
+        margin: 10px;
+        width: 97%;
+    }
+
+    .article img {
+        width: 50%;
+        height: 300px;
+        margin: 10px;
+        float: left;
+    }
+
+    .article h2 {
+        margin: 5px 15px;
+    }
+
+    .article-header {
+        display: inline-block;
+        margin: 105px 10px;
+        float: right;
+        vertical-align: middle;
+    }
+
+    .article-text {
+        display: inline-block;
+        margin: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px){
+    .lg-aside-header {
+        border: solid 1px lightgray;
+        border-radius: 5px;
+        margin: 10px;
+        background-color: #034F84;
+        display: inline-block;
+        width: 19%;
+        float: left;
+    }
+
+    .lg-aside-header h3 {
+        display: block;
+        padding: 10px;
+        color: white;
+
+    }
+
+    .lg-aside-header nav {
+        background-color: white;
+        text-align: center;
+    }
+
+    .lg-aside-header nav a {
+        display: block;
+        color: #5EA1D1;
+        text-decoration: none;
+        padding: 8px;
+    }
+
+    .lg-aside-header nav a:hover {
+        background-color: #94C0E0;
+    }
+
+    .search-field {
+        display: none
+    }
+
+    .gallery {
+        width: 48%;
+        margin: 10px auto;
+    }
+
+    .gallery img {
+        margin: 10px;
+        width: 29%;
+        height: 370px;
+    }
+
+    .md-user-block input {
+        width: 160px;
+    }
+
+    .sign-in-form {
+        float: right;
+        width: 29%;
+        margin: 10px;
+    }
+
+    .article{
+        width: 48.3%;
+    }
+    .article:nth-of-type(odd){float: left}
+    .article:nth-of-type(even){margin-left: auto}
+
+    .buttons {
+        width: 55%;
+    }
+
+    .article h2 {
+        font-size: 24px;
+    }
+
+    .article img {
+        height: 200px;
+    }
+
+    .article-header {
+        margin: 70px 10px;
+    }
+
+    .article-text {
+        margin: auto 10px 10px;
+    }
+}
